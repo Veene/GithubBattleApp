@@ -1,3 +1,20 @@
 body {
-    background: green;
+    /* background: green; */
   } 
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.languages {
+  display: flex;
+  justify-content: center;
+}
+.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
